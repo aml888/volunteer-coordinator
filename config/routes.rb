@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :volunteers
 	get '/hello', to: 'welcome#hello'
 	get '/hello/:name', to: 'welcome#hello'

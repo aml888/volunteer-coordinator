@@ -8,6 +8,8 @@ group :test, :development do
 	gem 'rspec-rails'
 end
 
+gem 'devise'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
